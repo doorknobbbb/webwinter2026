@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(99, 182, 255);
+    text-shadow: 2px 2px 2px rgb(61, 14, 150);
+    color:aliceblue;
+}
+
+.button{
+    border: double 10px rgb(18, 168, 228); width: 750px; font-size: 25px; font-family: 'Times New Roman', Times, serif;
+     background-color: #e6e6ff; color: aliceblue; text-shadow: 2px 2px 2px rgb(61, 14, 150); margin: auto; padding: 20px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Han | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-image: url("images/pastelblue.png");
+        }
+    </style>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center; color: azure; font-size: 75px; text-shadow: 2px 2px 2px rgb(61, 14, 150);">It's Javascriptin' time 😎😎😎</h1>
+    <script>
+        alert('Allow GENERIC to steal your information?')
+        alert('WARNING! THIS WEBSITE IS INSECURE. PROCEDE?')
+    </script>
+
+    <h2 style="text-align:center; text-shadow: 2px 2px 2px rgb(61, 14, 150); color: aliceblue; font-size: 50px;"> This is an ONCLICK event!</h2>
+    <p style="text-align: center; opacity: .5;">
+        <a href="https://www.google.com" target="_blank" onclick="alert('Good job getting away from this place. Go quickly, before they see you.')" 
+        >GET OUT! QUICK!</a>
+    </p>
+
+    <br>
+    <br>
+    <h2 style="text-align: center; color: aliceblue; text-shadow: 2px 2px 2px rgb(61, 14, 150)">Math Time!!!! what's 1+1? hmmm... 🤔🤔</h2>
+    <center>
+    <button style="border: double 10px rgb(18, 168, 228); width: 750px; font-size: 25px; font-family: 'Times New Roman', Times, serif;
+     background-color: #e6e6ff; color: aliceblue; text-shadow: 2px 2px 2px rgb(61, 14, 150); margin: auto; padding: 20px;"
+     onclick="document.getElementById('add').innerHTML=1+1">Click HERE to find the answer (and also give us your address!)</button>
+    <b><p id="add" style="font-size: 50px;"></p></b>
+    </center>
+
+    <h2>How can we change text with JS? </h2>
+    <center><button id="change-text" style="border: double 10px rgb(18, 168, 228); width: 750px; font-size: 25px; font-family: 'Times New Roman', Times, serif;
+     background-color: #e6e6ff; color: aliceblue; text-shadow: 2px 2px 2px rgb(61, 14, 150); margin: auto; padding: 20px;"
+     onclick="document.getElementById('change-text').innerHTML='you did it!! 👍👍🥳🥳'">Click here for something to change</button>
+    
+     <h2>We can also add the Date and Time!!!</h2>
+     <button style="border: double 10px rgb(18, 168, 228); width: 750px; font-size: 25px; font-family: 'Times New Roman', Times, serif;
+     background-color: #e6e6ff; color: aliceblue; text-shadow: 2px 2px 2px rgb(61, 14, 150); margin: auto; padding: 20px;"
+     onclick="document.getElementById('date').innerHTML=Date()">Click me to give you the date and time!</button>
+     <p id="date" style="font-size: 50px;">Date</p>
+
+     <h2>now it is function time!</h2>
+     <button style="border: double 10px rgb(18, 168, 228); width: 750px; font-size: 25px; font-family: 'Times New Roman', Times, serif;
+     background-color: #e6e6ff; color: aliceblue; text-shadow: 2px 2px 2px rgb(61, 14, 150); margin: auto; padding: 20px;"
+     onclick="pFun()">click to run the function!</button>
+     <p id="p-fun"></p>
+    <h2>How do we return user data with JS?</h2>
+    <button class="button" onclick="askName()">Click me to ask a question</button>
+    <p id="ask-name">skibid name</p>
+    
+    <h2>other question</h2>
+    <button class="button" onclick="askQuestion()">Click for question</button>
+    <p id = "question"></p>
+     <script>
+        function pFun(){
+            var p = document.getElementById('p-fun');
+            p.innerHTML="You ran a function! Good job!!!! You're did it!";
+            p.style.fontSize = '40px';
+        }
+     </script>
+    </center>
+</body>
+</html>

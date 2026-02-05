@@ -1,0 +1,30 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.nav li{
+    display: inline;
+    margin-right:40px;
+}
+
+
+.div-test{
+    background-color: rgb(17, 0, 255);
+    color:aliceblue;
+    text-align:center;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    border: 5px dotted blue;
+}
+
