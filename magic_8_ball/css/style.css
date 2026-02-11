@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: rgba(94, 21, 189, 0.705);
+    position:relative;
+    top: 500px;
+    outline-color: rgb(80, 15, 139);
+
+.gradient {
+    background: linear-gradient(to top, rgb(197, 71, 255), rgb(107, 25, 173));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    border-style: solid;
+    border-color: rgb(211, 79, 252);
+    background: linear-gradient(to top, rgb(89, 6, 128), rgb(154, 34, 253));
+    border-radius: 5px;
+    color: rgb(168, 90, 241);
+}
+
+.foreground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 150vh;
+  margin-top: -200px;
+
+  background-image: url('images/purple-space.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  pointer-events: none;   
+  z-index: -9999;
+  opacity: .7;          
+}
+
+#middle {
+    top: 500px;
+}
